@@ -1,0 +1,3 @@
+SELECT ProductName, CategoryName
+FROM Products LEFT JOIN CategorysAndProduct 
+    ON (Products.ProductID = CategorysAndProduct.ProductID)
